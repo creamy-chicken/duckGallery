@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+   
+<div class="gallery">
+  <img src="duck12.jpg" alt="Duck racing"
+       onmouseover="showInfo(this)"
+       onmouseleave="resetInfo()">
+
+    <img src="duck13.jpg" alt="Duck looking at the camera"
+       onmouseover="showInfo(this)"
+       onmouseleave="resetInfo()">
+    <img src="duck3.jpg" alt="Duck checking out the leaves"
+       onmouseover="showInfo(this)"
+       onmouseleave="resetInfo()">
+        
+    <div class="info">
+        <h3 id="image">Hover over an image below to display here.</h3>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
